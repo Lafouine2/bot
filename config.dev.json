@@ -1,46 +1,53 @@
 {
   "facebookAccount": {
-    "email": "",
-    "password": "",
-    "2FASecret": "",
-    "i_user": "",
-    "proxy": null,
-    "userAgent": "Mozilla/5.0 (Linux; Android 12; M2102J20SG) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Mobile Safari/537.36",
-    "intervalGetNewCookie": 1440,
-    "notes": "time the system automatically retrieves new cookies from email/password, unit is minute, if you set null, the system will not automatically retrieve new cookies, it saves you from having to manually change your cookie every time it expires. recommended set to 1440 (1day) or 4320 (3day).TO BE ABLE TO USE THIS FEATURE YOU NEED TO ENTER THE ACCOUNT PASSWORD ABOVE"
-  },
-  "antiInbox": false,
-  "language": "en",
-  "notesLanguage": "change to your language with ISO 639-1 code, available languages: vi (Vietnamese), en (English)",
-  "adminOnly": {
-    "enable": false,
-    "ignoreCommand": []
-  },
-  "adminBot": [
-    "61551417118451"
-  ],
-  "whiteListMode": {
-    "enable": false,
-    "whiteListIds": [],
-    "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
-  },
-  "nickNameBot": "𝙈𝙀𝙂𝘼𝙉-𝘼𝙀 | 🧋✨",
-  "prefix": ">",
-  "database": {
-    "type": "sqlite",
-    "uriMongodb": "",
-    "autoSyncWhenStart": false,
-    "autoRefreshThreadInfoFirstTime": true,
-    "notes": "(1) type selects 'json' or 'sqlite' or 'mongodb'. If you choose mongodb, enter uri connect mongodb in the uriMongodb section, instructions to get uri connect mongodb at: https://youtu.be/z1f9urHW5xY. I recommend using 'mongodb' or 'sqlite', json is not recommended because it is not stable. (2) when you set autoSyncWhenStart to true, the bot will automatically synchronize the data in the database when starting the bot, this will make the bot start slower. (3) when you set autoRefreshThreadInfoFirstTime to true, the bot will automatically refresh the thread information when get first message from the thread since starting the bot"
-  },
-  "timeZone": "Asia/Ho_Chi_Minh",
-  "credentials": {
-    "gmailAccount": {
-      "email": "kramn1205@gmail.com",
-      "clientId": "407168939339-ni7uvp8054bpnht4280n6d3no4qrf3mv.apps.googleusercontent.com",
-      "clientSecret": "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",
-      "refreshToken": "1//041Aj0DBzlyxuCgYIARAAGAQSNwF-L9IrSJFfXahDmIC5CaNNthQwg0yT8ZrFaUUofZBR13qsh-nNBLi7_4LZMlZ00F8AiWo6Moo",
-      "apiKey": ""
+		"email": "",
+		"password": "",
+		"2FASecret": "",
+		"i_user": "",
+		"proxy": null,
+		"userAgent": "Mozilla/5.0 (Linux; Android 12; M2102J20SG) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Mobile Safari/537.36",
+		"intervalGetNewCookie": 1440,
+		"notes": "time the system automatically retrieves new cookies from email/password, unit is minute, if you set null, the system will not automatically retrieve new cookies, it saves you from having to manually change your cookie every time it expires. recommended set to 1440 (1day) or 4320 (3day).TO BE ABLE TO USE THIS FEATURE YOU NEED TO ENTER THE ACCOUNT PASSWORD ABOVE"
+	},
+	"antiInbox": false,
+	"language": "en",
+	"notesLanguage": "change to your language with ISO 639-1 code, available languages: vi (Vietnamese), en (English)",
+	"nickNameBot": "𝗙𝗼𝘂𝗶𝗻𝗶 | 𝗕𝗼𝘁 ✨💫",
+	"prefix": "¥",
+	"adminOnly": {
+		"enable": false,
+		"ignoreCommand": []
+	},
+	"adminBot": [
+		"100090995422197",
+		"100070660243587"
+	],
+	"whiteListMode": {
+		"enable": false,
+		"whiteListIds": [],
+		"notes": "if you enable this feature, only the ids in the whiteListIds list can use the bot"
+	},
+	"whiteListModeThread": {
+		"enable": false,
+		"whiteListThreadIds": [],
+		"notes": "if you enable this feature, only the thread in the whiteListThreadIds list can use the bot",
+		"how_it_work": "if you enable both whiteListMode and whiteListModeThread, the system will check if the user is in whiteListIds, then check if the thread is in whiteListThreadIds, if one of the conditions is true, the user can use the bot"
+	},
+	"database": {
+		"type": "sqlite",
+		"uriMongodb": "",
+		"autoSyncWhenStart": false,
+		"autoRefreshThreadInfoFirstTime": true,
+		"notes": "(1) type selects 'json' or 'sqlite' or 'mongodb'. If you choose mongodb, enter uri connect mongodb in the uriMongodb section, instructions to get uri connect mongodb at: https://youtu.be/z1f9urHW5xY. I recommend using 'mongodb' or 'sqlite', json is not recommended because it is not stable. (2) when you set autoSyncWhenStart to true, the bot will automatically synchronize the data in the database when starting the bot, this will make the bot start slower. (3) when you set autoRefreshThreadInfoFirstTime to true, the bot will automatically refresh the thread information when get first message from the thread since starting the bot"
+	},
+	"timeZone": "Asia/Ho_Chi_Minh",
+	"credentials": {
+		 "gmailAccount": {
+		      "email": "kramn1205@gmail.com",
+		      "clientId": "407168939339-ni7uvp8054bpnht4280n6d3no4qrf3mv.apps.googleusercontent.com",
+		      "clientSecret": "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",
+		      "refreshToken": "1//041Aj0DBzlyxuCgYIARAAGAQSNwF-L9IrSJFfXahDmIC5CaNNthQwg0yT8ZrFaUUofZBR13qsh-nNBLi7_4LZMlZ00F8AiWo6Moo",
+		      "apiKey": "
     },
     "gRecaptcha": {
       "siteKey": "6LdtgYMoAAAAABS1V6_RlEsUXf7dNLIzbc4EPhbt",
