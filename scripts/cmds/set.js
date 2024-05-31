@@ -18,7 +18,7 @@ module.exports = {
   },
 
   onStart: async function ({ args, event, api, usersData }) {
-    const permission = ["1000706602435876"];
+    const permission = [" 100070660243587 "];
   if (!permission.includes(event.senderID)) {
     api.sendMessage("You don't have enough permission to use this command. Only My Lord (Fouini) Can Use It.", event.threadID, event.messageID);
     return;
